@@ -1,14 +1,14 @@
 {
-  "name": "browserify-tutorial",
+  "name": "angularjs-boilerplate",
   "version": "1.0.0",
   "description": "Boiler plate for AngularJS using Browserify",
   "main": "index.js",
   "scripts": {
     "build": "browserify app.js -o bundle.js",
-    "serve": "concurrently \"watchify app/js/app.module.js -o bundle.js\" \"browser-sync start --server -w --files './app/js/*.js'\"",
+    "serve": "concurrently \"watchify app/js/app.module.js -o bundle.js\" \"browser-sync start --server -w --files './bundle.js'\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "james reddington",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.8",
