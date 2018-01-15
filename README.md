@@ -12,4 +12,8 @@ app.module.js uses CommonJS to require all the files the app needs.
 
 Browserify then bundles all these into bundle.js, which is the only script file referenced in index.html.
 
-Browser-sync is used to serve the app in the default browser.  It watches the bundle.js file an refreshed the browser when any changes to this file are detected.
+Browser-sync is used to serve the app in the default browser.  It watches the bundle.js file and refreshes the browser when any changes to this file are detected.
+
+To run the project:
+
+npm run serve
